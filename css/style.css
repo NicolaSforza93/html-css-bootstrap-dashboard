@@ -1,14 +1,31 @@
+.search-bar {
+    background-color: #E5E5E5;
+}
 
+.search-bar p {
+    color: gray;
+    font-size: 12px;
+}
 
+.search-bar i {
+    font-size: 14px;
+}
 
+.logo-lg {
+    width: 105px;
+}
 
+.logo-sm {
+    width: 45px;
+}
 
+.toolbar-controls i {
+    font-size: 14px;
+}
 
-
-
-
-
-
+.dropdown i {
+    color: #F09536;
+}
 
 
 
@@ -31,10 +48,10 @@
     min-height: 100px;
 }
 
-.debug .app-toolbar {
+/* .debug .app-toolbar {
     border: 1px solid green;
     min-height: 80px;
-}
+} */
 
 .debug .app-sidebar {
     border: 1px solid blue;
