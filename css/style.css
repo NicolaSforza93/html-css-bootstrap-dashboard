@@ -1,3 +1,5 @@
+/* TOOLBAR */
+
 .search-bar {
     background-color: #E5E5E5;
 }
@@ -16,7 +18,7 @@
 }
 
 .logo-sm {
-    width: 45px;
+    width: 40px;
 }
 
 .toolbar-controls i {
@@ -27,12 +29,45 @@
     color: #F09536;
 }
 
+/* SIDEBAR */
+
+.app-sidebar {
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #0C1D32;
+    width: 56px;
+}
+
+.menu-item, .user a {
+    font-size: 13px;
+}
+
+.menu-item:hover {
+    background-color: rgba(255, 255, 255, 0.475);
+}
 
 
 
 
 
 
+
+
+
+/* MEDIA QUERI */
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+    .app-sidebar {
+        width: 117px;
+    }
+}
 
 
 
@@ -53,8 +88,8 @@
     min-height: 80px;
 } */
 
-.debug .app-sidebar {
+/* .debug .app-sidebar {
     border: 1px solid blue;
     min-width: 100px;
     min-height: 100px;
-}
+} */

@@ -12,10 +12,36 @@
     <div class="app-dashboard d-flex flex-column ">
         <div class="app-content d-flex flex-grow-1 order-2">
             <!-- BARRA LATERALE -->
-            <header class="app-sidebar">
-                <nav>
-
+            <header class="app-sidebar d-flex flex-column align-items-center py-3 flex-shrink-0">
+                <nav class="flex-grow-1">
+                    <ul class="nav-menu list-unstyled d-flex flex-column gap-1">
+                        <li class="menu-item p-1">
+                            <a href="#" class="text-decoration-none text-light d-flex gap-2 align-items-center">
+                                <i class="fa-solid fa-house"></i>
+                                <span class="d-none d-lg-inline">Home</span>
+                            </a>
+                        </li>
+                        <li class="menu-item p-1">
+                            <a href="#" class="text-decoration-none text-light d-flex gap-2 align-items-center">
+                                <i class="fa-solid fa-chart-simple"></i>
+                                <span class="ms-1 d-none d-lg-inline">Stats</span>
+                            </a>
+                        </li>
+                        <li class="menu-item p-1">
+                            <a href="#" class="text-decoration-none text-light d-flex gap-2 align-items-center">
+                                <i class="fa-solid fa-signal"></i>
+                                <span class="d-none d-lg-inline">Signals</span>
+                            </a>
+                        </li>
+                    </ul>
                 </nav>
+
+                <div class="user">
+                    <a href="#" class="text-decoration-none text-light d-flex gap-2 align-items-center">
+                        <i class="fa-solid fa-gear"></i>
+                        <span class="d-none d-lg-inline">Admin</span>
+                    </a>
+                </div>
             </header>
             <!-- CONTENUTO -->
             <main class="app-main-content">
@@ -70,8 +96,6 @@
                     </div>
                 </div>
             </div>
-            
-
         </aside>
     </div>
 
