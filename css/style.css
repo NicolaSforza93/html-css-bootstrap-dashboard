@@ -1,0 +1,43 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DEBUG */
+
+.debug .app-dashboard {
+    border: 3px solid black;
+    height: 100vh;
+}
+
+.debug .app-content {
+    border: 2px solid purple;
+    min-height: 100px;
+}
+
+.debug .app-toolbar {
+    border: 1px solid green;
+    min-height: 80px;
+}
+
+.debug .app-sidebar {
+    border: 1px solid blue;
+    min-width: 100px;
+    min-height: 100px;
+}
