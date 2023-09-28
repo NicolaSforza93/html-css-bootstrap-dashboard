@@ -45,6 +45,30 @@
     background-color: rgba(255, 255, 255, 0.475);
 }
 
+/* MAIN-CONTENT */
+/* PANNELLO STUDENTI */
+.panel-student {
+    background-color: #3870E0;
+}
+
+.panel-student .badge {
+    background-color: #2C5AB4;
+    font-size: 10px;
+}
+
+.panel-student .angle {
+    font-size: 10px;
+}
+
+.size-11 {
+    font-size: 11px;
+}
+
+.offcanvas {
+    --bs-offcanvas-width: 100%
+}
+
+
 
 
 
@@ -56,16 +80,20 @@
 /* MEDIA QUERI */
 
 @media (min-width: 576px) {
-
+   
 }
 
 @media (min-width: 768px) {
-
+    
 }
 
 @media (min-width: 992px) {
     .app-sidebar {
         width: 117px;
+    }
+
+    .offcanvas {
+        --bs-offcanvas-width: 650px
     }
 }
 

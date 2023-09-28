@@ -44,7 +44,128 @@
                 </div>
             </header>
             <!-- CONTENUTO -->
-            <main class="app-main-content">
+            <main class="app-main-content flex-grow-1">
+                <!-- PANNELLO STUDENTI -->
+                <div class="container-fluid panel-student py-3">
+                    <div class="row align-items-center row-gap-3">
+                        <div class="col-sm-12 col-md-4 col-lg-6 text-light">
+                            <div class="d-flex align-items-center gap-2 mb-1">
+                                <h5 class="mb-0">Boolean</h5 class="text-light">
+                                <span class="badge rounded-pill align-self-end">Piano blaze</span>
+                            </div>
+                            <ul class="list-unstyled mb-0 d-flex gap-1">
+                                <li>
+                                    <span class="badge rounded-pill">3 app</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-angles-right angle"></i>
+                                </li>
+                                <li class="d-none d-lg-block">
+                                    <span class="badge rounded-pill">Boolean mobile app</span>
+                                </li>
+                                <li class="d-none d-lg-block">
+                                    <span class="badge rounded-pill">Boolean web app</span>
+                                </li>
+                                <li class="d-none d-lg-block">
+                                    <span class="badge rounded-pill">Boolean blog app</span>
+                                </li>
+                                <li class="d-lg-none">
+                                    <span class="badge rounded-pill"><i class="fa-solid fa-plus"></i></span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-12 col-md-4 text-light">
+                            <p class="mb-0 size-11">Studenti online negli ultimi 30 minuti</p>
+                            <span class="fs-4">125</span>
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-lg-2 order-sm-first order-md-last text-light align-self-start">
+                            <span class="size-11 me-2">Nuovo Studente</span>
+                            <button class="btn btn-outline-light btn-sm" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus size-11"></i></button>
+
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                                <h6 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h6>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <form>
+                                    <div class="row row-gap-2 fw-semibold">
+                                        <div class="col-sm-12 col-md-6">
+                                            <label for="first name">Nome</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="col-sm-12 col-md-6">
+                                            <label for="last name">Cognome</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="col-sm-12 col-md-6">
+                                            <label for="inputEmail" class="form-label">Email</label>
+                                            <div class="input-group">
+                                                <span class="input-group-text bg-secondary-subtle fw-semibold">@</span>
+                                                <input type="email" class="form-control" id="inputEmail">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6">
+                                            <label for="inputPassword" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="inputPassword">
+                                        </div>
+                                        <div class="col-sm-12 col-md-6">
+                                            <label for="inputEmail2" class="form-label">Indirizzo Email</label>
+                                            <div class="input-group">
+                                                <span class="input-group-text bg-secondary-subtle fw-semibold">@</span>
+                                                <input type="email" class="form-control" id="inputEmail2">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6">
+                                            <label for="inputPassword2" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="inputPassword2">
+                                        </div>
+                                        <div class="col-12">
+                                            <label for="inputAddress" class="form-label">Indirizzo</label>
+                                            <input type="text" class="form-control" id="inputAddress">
+                                        </div>
+                                        <div class="col-sm-12 col-md-6">
+                                            <label for="inputCity" class="form-label">Città</label>
+                                            <input type="text" class="form-control" id="inputCity">
+                                        </div>
+                                        <div class="col-sm-12 col-md-4">
+                                            <label for="inputState" class="form-label">Stato</label>
+                                            <select id="inputState" class="form-select">
+                                                <option selected>Scegli...</option>
+                                                <option>...</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-sm-12 col-md-2">
+                                            <label for="inputCap" class="form-label">CAP</label>
+                                            <input type="text" class="form-control" id="inputCap">
+                                        </div>
+                                        <div class="col-12 mb-3">
+                                            <label for="formFile" class="form-label">Foto</label>
+                                            <input class="form-control" type="file" id="formFile">
+                                          </div>
+                                        <div class="col-12 mb-2">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                                <label class="form-check-label" for="gridCheck">
+                                                Seleziona per proseguire
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <button type="submit" class="btn btn-primary fw-semibold">Salva</button>
+                                            <button type="reset" class="btn btn-warning fw-semibold">Svuota</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content">
+
+                </div>
 
             </main>
         </div>
