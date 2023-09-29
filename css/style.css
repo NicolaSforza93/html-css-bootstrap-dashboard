@@ -1,16 +1,21 @@
 /* TOOLBAR */
 
-.search-bar {
-    background-color: #E5E5E5;
+.search-bar input {
+	padding-left: 28px;
+	background-color: #e5e5e5;
 }
 
-.search-bar p {
-    color: gray;
+.search-bar .search-bar__icon {
+	top: 50%;
+	left: 7px;
+	transform: translateY(-50%);
+	font-size: 14px;
+	pointer-events: none;
+}
+
+.search-bar ::placeholder {
     font-size: 12px;
-}
-
-.search-bar i {
-    font-size: 14px;
+    color: gray;
 }
 
 .logo-lg {
@@ -83,7 +88,17 @@
     font-size: 13px;
 }
 
+/* SEZIONE TODO */
 
+.todo-list {
+    font-size: 13px;
+}
+
+/* UTENTI */
+
+.statistics {
+    font-size: 13px;
+}
 
 
 
@@ -114,11 +129,10 @@
 
 
 /* DEBUG */
-
+/* 
 .debug .app-dashboard {
     border: 3px solid black;
-    height: 100vh;
-}
+} */
 
 .debug .app-content {
     /* border: 2px solid purple; */
