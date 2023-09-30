@@ -16,19 +16,19 @@
                 <nav class="flex-grow-1">
                     <ul class="nav-menu list-unstyled d-flex flex-column gap-1">
                         <li class="menu-item p-1">
-                            <a href="#" class="text-decoration-none text-light d-flex gap-2 align-items-center">
+                            <a href="#" class="text-decoration-none d-flex gap-2 align-items-center text-light">
                                 <i class="fa-solid fa-house"></i>
                                 <span class="d-none d-lg-inline">Home</span>
                             </a>
                         </li>
                         <li class="menu-item p-1">
-                            <a href="#" class="text-decoration-none text-light d-flex gap-2 align-items-center">
+                            <a href="#" class="text-decoration-none d-flex gap-2 align-items-center text-light">
                                 <i class="fa-solid fa-chart-simple"></i>
                                 <span class="ms-1 d-none d-lg-inline">Stats</span>
                             </a>
                         </li>
                         <li class="menu-item p-1">
-                            <a href="#" class="text-decoration-none text-light d-flex gap-2 align-items-center">
+                            <a href="#" class="text-decoration-none d-flex gap-2 align-items-center text-light">
                                 <i class="fa-solid fa-signal"></i>
                                 <span class="d-none d-lg-inline">Signals</span>
                             </a>
@@ -37,7 +37,7 @@
                 </nav>
 
                 <div class="user">
-                    <a href="#" class="text-decoration-none text-light d-flex gap-2 align-items-center">
+                    <a href="#" class="text-decoration-none d-flex gap-2 align-items-center text-light">
                         <i class="fa-solid fa-gear"></i>
                         <span class="d-none d-lg-inline">Admin</span>
                     </a>
@@ -132,7 +132,28 @@
                                                 <label for="inputState" class="form-label">Stato</label>
                                                 <select id="inputState" class="form-select">
                                                     <option selected>Scegli...</option>
-                                                    <option>...</option>
+                                                    <option>Argentina</option>
+                                                    <option>Australia</option>
+                                                    <option>Belgio</option>
+                                                    <option>Brasile</option>
+                                                    <option>Canada</option>
+                                                    <option>Cina</option>
+                                                    <option>Croazia</option>
+                                                    <option>Cuba</option>
+                                                    <option>Danimarca</option>
+                                                    <option>Francia</option>
+                                                    <option>Germania</option>
+                                                    <option>Giappone</option>
+                                                    <option>Grecia</option>
+                                                    <option>India</option>
+                                                    <option>Italia</option>
+                                                    <option>Marocco</option>
+                                                    <option>Norvegia</option>
+                                                    <option>Paesi Bassi</option>
+                                                    <option>Portogallo</option>
+                                                    <option>Regno Unito</option>
+                                                    <option>Russia</option>
+                                                    <option>Stati Uniti</option>
                                                 </select>
                                             </div>
                                             <div class="col-sm-12 col-md-2">
@@ -168,7 +189,7 @@
                         <div class="row gy-4">
                             <div class="col-12 col-lg-8">
                                 <!-- TABLE -->
-                                <div class="card mb-4" style="width: 100%;">
+                                <div class="card mb-4">
                                     <div class="card-header">
                                       <h5 class="mb-0">Prossime classi</h5>
                                     </div>
@@ -193,8 +214,8 @@
                                                     <td class="fw-medium d-none d-md-table-cell">20%</td>
                                                     <td><span class="badge text-bg-success">Done</span></td>
                                                     <td>
-                                                        <button type="button" class="btn border border-secondary rounded-1" style="--bs-btn-padding-y: .15rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .65rem;"><i class="fa-solid fa-pen"></i></button>
-                                                        <button type="button" class="btn border border-secondary rounded-1" style="--bs-btn-padding-y: .15rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .65rem;"><i class="fa-solid fa-trash"></i></button>
+                                                        <button type="button" class="btn border border-secondary rounded-1 edit-button"><i class="fa-solid fa-pen"></i></button>
+                                                        <button type="button" class="btn border border-secondary rounded-1 delete-button"><i class="fa-solid fa-trash"></i></button>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -206,8 +227,8 @@
                                                     <td class="fw-medium d-none d-md-table-cell">20%</td>
                                                     <td><span class="badge text-bg-success">Done</span></td>
                                                     <td>
-                                                        <button type="button" class="btn border border-secondary rounded-1" style="--bs-btn-padding-y: .15rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .65rem;"><i class="fa-solid fa-pen"></i></button>
-                                                        <button type="button" class="btn border border-secondary rounded-1" style="--bs-btn-padding-y: .15rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .65rem;"><i class="fa-solid fa-trash"></i></button>
+                                                        <button type="button" class="btn border border-secondary rounded-1 edit-button"><i class="fa-solid fa-pen"></i></button>
+                                                        <button type="button" class="btn border border-secondary rounded-1 delete-button"><i class="fa-solid fa-trash"></i></button>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -219,8 +240,8 @@
                                                     <td class="fw-medium d-none d-md-table-cell">20%</td>
                                                     <td><span class="badge text-bg-warning text-light">Process</span></td>
                                                     <td>
-                                                        <button type="button" class="btn border border-secondary rounded-1" style="--bs-btn-padding-y: .15rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .65rem;"><i class="fa-solid fa-pen"></i></button>
-                                                        <button type="button" class="btn border border-secondary rounded-1" style="--bs-btn-padding-y: .15rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .65rem;"><i class="fa-solid fa-trash"></i></button>
+                                                        <button type="button" class="btn border border-secondary rounded-1 edit-button"><i class="fa-solid fa-pen"></i></button>
+                                                        <button type="button" class="btn border border-secondary rounded-1 delete-button"><i class="fa-solid fa-trash"></i></button>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -232,8 +253,8 @@
                                                     <td class="fw-medium d-none d-md-table-cell">20%</td>
                                                     <td><span class="badge text-bg-success">Done</span></td>
                                                     <td>
-                                                        <button type="button" class="btn border border-secondary rounded-1" style="--bs-btn-padding-y: .15rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .65rem;"><i class="fa-solid fa-pen"></i></button>
-                                                        <button type="button" class="btn border border-secondary rounded-1" style="--bs-btn-padding-y: .15rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .65rem;"><i class="fa-solid fa-trash"></i></button>
+                                                        <button type="button" class="btn border border-secondary rounded-1 edit-button"><i class="fa-solid fa-pen"></i></button>
+                                                        <button type="button" class="btn border border-secondary rounded-1 delete-button"><i class="fa-solid fa-trash"></i></button>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -245,8 +266,8 @@
                                                     <td class="fw-medium d-none d-md-table-cell">20%</td>
                                                     <td><span class="badge text-bg-danger">Failed</span></td>
                                                     <td>
-                                                        <button type="button" class="btn border border-secondary rounded-1" style="--bs-btn-padding-y: .15rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .65rem;"><i class="fa-solid fa-pen"></i></button>
-                                                        <button type="button" class="btn border border-secondary rounded-1" style="--bs-btn-padding-y: .15rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .65rem;"><i class="fa-solid fa-trash"></i></button>
+                                                        <button type="button" class="btn border border-secondary rounded-1 edit-button"><i class="fa-solid fa-pen"></i></button>
+                                                        <button type="button" class="btn border border-secondary rounded-1 delete-button"><i class="fa-solid fa-trash"></i></button>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -258,8 +279,8 @@
                                                     <td class="fw-medium d-none d-md-table-cell">20%</td>
                                                     <td><span class="badge text-bg-success">Done</span></td>
                                                     <td>
-                                                        <button type="button" class="btn border border-secondary rounded-1" style="--bs-btn-padding-y: .15rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .65rem;"><i class="fa-solid fa-pen"></i></button>
-                                                        <button type="button" class="btn border border-secondary rounded-1" style="--bs-btn-padding-y: .15rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .65rem;"><i class="fa-solid fa-trash"></i></button>
+                                                        <button type="button" class="btn border border-secondary rounded-1 edit-button"><i class="fa-solid fa-pen"></i></button>
+                                                        <button type="button" class="btn border border-secondary rounded-1 delete-button"><i class="fa-solid fa-trash"></i></button>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -271,8 +292,8 @@
                                                     <td class="fw-medium d-none d-md-table-cell">20%</td>
                                                     <td><span class="badge text-bg-danger">Failed</span></td>
                                                     <td>
-                                                        <button type="button" class="btn border border-secondary rounded-1" style="--bs-btn-padding-y: .15rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .65rem;"><i class="fa-solid fa-pen"></i></button>
-                                                        <button type="button" class="btn border border-secondary rounded-1" style="--bs-btn-padding-y: .15rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .65rem;"><i class="fa-solid fa-trash"></i></button>
+                                                        <button type="button" class="btn border border-secondary rounded-1 edit-button"><i class="fa-solid fa-pen"></i></button>
+                                                        <button type="button" class="btn border border-secondary rounded-1 delete-button"><i class="fa-solid fa-trash"></i></button>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -284,8 +305,8 @@
                                                     <td class="fw-medium d-none d-md-table-cell">20%</td>
                                                     <td><span class="badge text-bg-success">Done</span></td>
                                                     <td>
-                                                        <button type="button" class="btn border border-secondary rounded-1" style="--bs-btn-padding-y: .15rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .65rem;"><i class="fa-solid fa-pen"></i></button>
-                                                        <button type="button" class="btn border border-secondary rounded-1" style="--bs-btn-padding-y: .15rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .65rem;"><i class="fa-solid fa-trash"></i></button>
+                                                        <button type="button" class="btn border border-secondary rounded-1 edit-button"><i class="fa-solid fa-pen"></i></button>
+                                                        <button type="button" class="btn border border-secondary rounded-1 delete-button"><i class="fa-solid fa-trash"></i></button>
                                                     </td>
                                                 </tr>
                                             </tbody>
@@ -293,7 +314,7 @@
                                     </div>
                                 </div>
                                 <!-- SEZIONE FAQ -->
-                                <div class="card" style="width: 100%;">
+                                <div class="card">
                                     <div class="card-header">
                                       <h5 class="mb-0 text-uppercase">f.a.q</h5>
                                     </div>
@@ -342,7 +363,7 @@
                             
                             <div class="col-12 col-lg-4">
                                 <!-- SEZIONE TODO -->
-                                <div class="card mb-4" style="width: 100%;">
+                                <div class="card mb-4">
                                     <div class="card-header">
                                         <h5 class="mb-0">Todo</h5>
                                     </div>
@@ -362,7 +383,7 @@
                                     </ul>  
                                 </div>
                                 <!-- UTENTI -->
-                                <div class="card statistics" style="width: 100%;">
+                                <div class="card statistics">
                                     <img src="./img/stats.jpeg" class="card-img-top" alt="...">
                                     <div class="card-body">
                                       <h6 class="card-title">Utenti attivi</h6>
@@ -397,7 +418,7 @@
                         <div class="search-bar position-relative">
                             <input
                                 type="text"
-                                class="w-100 h-100 form-control"
+                                class="h-100 form-control"
                                 name=""
                                 placeholder="Prova a cercare: Lezioni di Laravel"
                                 id=""

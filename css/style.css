@@ -82,6 +82,30 @@
     font-size: 13px;
 }
 
+.table th:first-child {
+    width: 50%;
+}
+
+.table thead th:nth-child(4) {
+    text-align: center;
+}
+
+.table tbody td:nth-child(4) {
+    text-align: center;
+}
+
+.edit-button, .delete-button i {
+   color: #6E757C;
+}
+
+.edit-button, .delete-button {
+    --bs-btn-padding-y: .15rem; 
+    --bs-btn-padding-x: .3rem; 
+    --bs-btn-font-size: .65rem;
+}
+
+
+
 /* SEZIONE FAQ */
 
 .accordion-button, .accordion-body {
@@ -112,8 +136,7 @@
    
 }
 
-@media (min-width: 768px) {
-    
+@media (min-width: 768px) {   
 }
 
 @media (min-width: 992px) {
@@ -125,6 +148,7 @@
         --bs-offcanvas-width: 650px
     }
 }
+
 
 
 
